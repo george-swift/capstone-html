@@ -94,3 +94,15 @@
 .featured-mac {
   background-image: url("assets/Mac_slocum.jpg");
 }
+
+.more::after {
+  display: inline-block;
+  content: "";
+  width: 0.6em;
+  height: 0.6em;
+  border-right: 2px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
+  transform: rotate(45deg);
+  margin-left: 0.5em;
+  margin-bottom: 0.2em;
+}
