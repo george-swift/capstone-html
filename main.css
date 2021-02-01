@@ -60,3 +60,37 @@
   margin: 0.5em auto 1em;
   border-bottom: 3px solid #ec5242;
 }
+
+.photo {
+  position: absolute;
+  top: 0.75em;
+  left: 0.75em;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.featured-ana {
+  background-image: url("assets/Ana_Oprea.jpg");
+}
+
+.featured-betsy {
+  background-image: url("assets/Betsy_Beyer.jpeg");
+}
+
+.featured-heather {
+  background-image: url("assets/Heather_Adkins.jpeg");
+}
+
+.featured-stephen {
+  background-image: url("assets/Stephen_Thorne.jpeg");
+}
+
+.featured-jennifer {
+  background-image: url("assets/Jennifer_Petoff.jpg");
+}
+
+.featured-mac {
+  background-image: url("assets/Mac_slocum.jpg");
+}
