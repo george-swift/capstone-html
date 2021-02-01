@@ -46,3 +46,17 @@
   background-position: 50% 75%;
   background-size: cover;
 }
+
+#program {
+  background-image: url("assets/grey-architecture.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section-header::after {
+  display: block;
+  content: "";
+  width: 2.5em;
+  margin: 0.5em auto 1em;
+  border-bottom: 3px solid #ec5242;
+}
