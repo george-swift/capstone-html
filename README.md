@@ -31,4 +31,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Creative Common and authors of the Site Reliability workbook
+- Hat tip to Creative Commons and authors of the Site Reliability workbook
