@@ -25,3 +25,24 @@
 .workshop-logo {
   height: 40px;
 }
+
+.intro,
+.date,
+.icon {
+  font-size: 25px;
+}
+
+.wrap {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.mx-width {
+  max-width: 600px;
+}
+
+#home {
+  background-image: url("assets/white-architecture.jpg");
+  background-position: 50% 75%;
+  background-size: cover;
+}
