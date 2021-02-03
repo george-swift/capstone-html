@@ -6,6 +6,10 @@
   background-color: #ec5242;
 }
 
+.bg-grey {
+  background-color: #414246;
+}
+
 .border-red {
   border: 4px solid #ec5242;
 }
@@ -57,4 +61,32 @@
 
 table {
   outline: 3px dotted #272a31;
+}
+
+.divider {
+  height: 2px;
+  background-color: #d3d3d3;
+}
+
+.square {
+  top: -1em;
+  content: "";
+  display: block;
+  width: 1.875em;
+  height: 1.875em;
+  transform: rotate(45deg);
+}
+
+.invert {
+  top: 0.7em;
+  left: 0.7em;
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.sel-menu h3 {
+  font-size: 15px;
 }
