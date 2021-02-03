@@ -104,3 +104,7 @@
     linear-gradient(135deg, rgba(242, 71, 21, 0.9) 40%, rgba(0, 0, 0, 0) 75%),
     url("assets/srecon-hall.png");
 }
+
+.bg-grey {
+  background-color: rgb(65, 66, 70);
+}
