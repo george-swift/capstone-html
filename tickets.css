@@ -1,3 +1,7 @@
+.z-index {
+  z-index: 1;
+}
+
 .bg-navy {
   background-color: #272a31;
 }
