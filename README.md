@@ -2,15 +2,15 @@
 
 # HTML/CSS Capstone Project
 
-> The project is based on an online website for a conference.
+> The project is based on an [online website](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for a conference.
 
-![screenshot](./Capstone-screenshot.png)
+![screenshot]()
 
 ## Built With
 
+- Bootstrap 5
 - HTML5
 - CSS
-- Bootstrap 5
 
 ## Live Demo
 
@@ -31,4 +31,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to Creative Commons and authors of the Site Reliability workbook
+- Hat tip to the following:
+  - GUI and Graphics Designer Cindy Shin; creative behind the [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) on Behance
+  - Unsplash for contextual images
+
+## 📝 License
+
+This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.
