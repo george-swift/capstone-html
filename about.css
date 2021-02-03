@@ -57,3 +57,15 @@
   background-position: 50% 75%;
   background-size: cover;
 }
+
+.intro {
+  font-size: 22px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("assets/sre-logo.png");
+  background-position: 50%;
+  background-size: cover;
+}
