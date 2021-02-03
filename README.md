@@ -4,11 +4,11 @@
 
 > The project is based on an [online website](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for a conference.
 
-![screenshot](./home.png)
+![screenshot](./assets/home.png)
 
-![screenshot](./about.png)
+![screenshot](./assets/about.png)
 
-![screenshot](./tickets.png)
+![screenshot](./assets/tickets.png)
 
 ## Built With
 
