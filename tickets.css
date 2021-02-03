@@ -1,0 +1,60 @@
+.bg-navy {
+  background-color: #272a31;
+}
+
+.bg-red {
+  background-color: #ec5242;
+}
+
+.border-red {
+  border: 4px solid #ec5242;
+}
+
+.border-navy {
+  border: 3px solid #272a31;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-goose {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+.color-red {
+  color: #ec5242;
+}
+
+.color-navy {
+  color: #272a31;
+}
+
+.workshop-logo {
+  height: 40px;
+}
+
+.effect:hover {
+  background-color: #272a31;
+  transition: 0.6s ease-in;
+}
+
+.intro {
+  font-size: 22px;
+}
+
+.section-header::after {
+  display: block;
+  content: "";
+  width: 2.4em;
+  margin: 0.5em auto 1em;
+  border-bottom: 2px solid #ec5242;
+}
+
+table {
+  outline: 3px dotted #272a31;
+}
