@@ -47,6 +47,18 @@
   height: 40px;
 }
 
+.theme {
+  font-size: 27px;
+}
+
+.event {
+  font-size: calc(1.9rem + 1.5vw);
+}
+
+.subject {
+  font-size: 18px;
+}
+
 .intro,
 .date,
 .icon {
