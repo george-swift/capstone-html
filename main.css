@@ -48,7 +48,7 @@
 }
 
 .theme {
-  font-size: 27px;
+  font-size: 1.6em;
 }
 
 .event {
@@ -88,7 +88,7 @@
 }
 
 .mx-width {
-  max-width: 600px;
+  max-width: 550px;
 }
 
 #home {
@@ -119,23 +119,16 @@
   position: absolute;
   top: 0.75em;
   left: 0.75em;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-size: cover;
   background-position: 50%;
 }
 
-@media screen and (max-width: 400px) {
-  .photo {
-    width: 80px;
-    height: 80px;
-  }
-}
-
 @media screen and (min-width: 1300px) {
   .photo {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
   }
 }
 
