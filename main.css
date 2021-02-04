@@ -112,7 +112,7 @@
   content: "";
   width: 2.5em;
   margin: 0.5em auto 1em;
-  border-bottom: 3px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
 }
 
 .photo {
@@ -174,4 +174,88 @@
   transform: rotate(45deg);
   margin-left: 0.5em;
   margin-bottom: 0.2em;
+}
+
+/* Styling rules specific to About Page */
+
+.about-header {
+  background-image: url("assets/about-background.jpg");
+  background-position: 50% 75%;
+  background-size: cover;
+}
+
+.wrap-text {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("assets/sre-logo.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.conf-photos {
+  width: 275px;
+  height: 150px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.twenty-twenty {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(236, 143, 27, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    linear-gradient(135deg, rgba(242, 71, 21, 0.9) 40%, rgba(0, 0, 0, 0) 75%),
+    url("assets/sre-conference-2020.jpg");
+}
+
+.twenty-nineteen {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(236, 143, 27, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    linear-gradient(135deg, rgba(242, 71, 21, 0.9) 40%, rgba(0, 0, 0, 0) 75%),
+    url("assets/srecon-hall.png");
+}
+
+/* Styling rules specific to the Tickets Page */
+
+table {
+  outline: 3px dotted #272a31;
+}
+
+.divider {
+  height: 2px;
+  background-color: #d3d3d3;
+}
+
+.square {
+  top: -1em;
+  content: "";
+  display: block;
+  width: 1.875em;
+  height: 1.875em;
+  transform: rotate(45deg);
+}
+
+.invert {
+  top: 0.7em;
+  left: 0.7em;
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.sel-menu h3 {
+  font-size: 15px;
 }
