@@ -54,6 +54,13 @@
   transition: 0.6s ease-in;
 }
 
+.ticket:hover {
+  background-color: #ec5242;
+  color: #fff;
+  transition: 0.6s ease-out;
+  border: none;
+}
+
 .wrap {
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
