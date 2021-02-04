@@ -1,3 +1,8 @@
+@font-face {
+  font-family: COCOGOOSE;
+  src: url(COCOGOOSE/Cocogoose_trial.woff);
+}
+
 .bg-navy {
   background-color: #272a31;
 }
