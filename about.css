@@ -67,6 +67,10 @@
   font-size: 22px;
 }
 
+.event {
+  font-size: calc(1.9rem + 1.5vw);
+}
+
 .section-header::after {
   display: block;
   content: "";
