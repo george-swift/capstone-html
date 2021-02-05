@@ -1,65 +1,33 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML/CSS Capstone Project
 
-> One paragraph statement about the project.
+> The project is based on an [online website](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for a conference.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/home.png)
 
-Additional description about the project and its features.
+![screenshot](./assets/about.png)
+
+![screenshot](./assets/tickets.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Bootstrap 5
+- HTML5
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://george-swift.github.io/capstone-html/)
 
+👤 **Author**
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@george-swift](https://github.com/george-swift)
+- Twitter: [@\_\_pragmaticdev](https://twitter.com/__pragmaticdev)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -67,10 +35,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to the following:
+  - GUI and Graphics Designer Cindy Shin; creative behind the [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) on Behance
+  - Unsplash for contextual images
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://www.mit.edu/~amini/LICENSE.md) licensed.

@@ -1,0 +1,261 @@
+@font-face {
+  font-family: COCOGOOSE;
+  src: url(COCOGOOSE/Cocogoose_trial.woff);
+}
+
+.z-index {
+  z-index: 1;
+}
+
+.bg-navy {
+  background-color: #272a31;
+}
+
+.bg-red {
+  background-color: #ec5242;
+}
+
+.border-red {
+  border: 4px solid #ec5242;
+}
+
+.border-navy {
+  border: 3px solid #272a31;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-goose {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.font-small {
+  font-size: 12px;
+}
+
+.color-red {
+  color: #ec5242;
+}
+
+.color-navy {
+  color: #272a31;
+}
+
+.workshop-logo {
+  height: 40px;
+}
+
+.theme {
+  font-size: 1.6em;
+}
+
+.event {
+  font-size: calc(1.9rem + 1.5vw);
+}
+
+.subject {
+  font-size: 20px;
+}
+
+.intro,
+.date,
+.icon {
+  font-size: 22px;
+}
+
+.effect:hover {
+  background-color: #272a31;
+  color: #aaa;
+  transition: 0.6s ease-in;
+}
+
+.ticket:hover {
+  background-color: #ec5242;
+  color: #fff;
+  transition: 0.6s ease-out;
+  border: none;
+}
+
+.wrap {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.mt-10 {
+  margin-top: 4em;
+}
+
+.mx-width {
+  max-width: 550px;
+}
+
+#home {
+  background-image: url("assets/white-architecture.jpg");
+  background-position: 50% 75%;
+  background-size: cover;
+}
+
+#program {
+  background-image: url("assets/grey-architecture.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.bg-grey {
+  background-color: rgb(65, 66, 70);
+}
+
+.section-header::after {
+  display: block;
+  content: "";
+  width: 2.5em;
+  margin: 0.5em auto 1em;
+  border-bottom: 2px solid #ec5242;
+}
+
+.photo {
+  position: absolute;
+  top: 0.75em;
+  left: 0.75em;
+  width: 85px;
+  height: 85px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+@media screen and (min-width: 1300px) {
+  .photo {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+.featured-ana {
+  background-image: url("assets/Ana_Oprea.jpg");
+}
+
+.featured-betsy {
+  background-image: url("assets/Betsy_Beyer.jpeg");
+}
+
+.featured-heather {
+  background-image: url("assets/Heather_Adkins.jpeg");
+}
+
+.featured-stephen {
+  background-image: url("assets/Stephen_Thorne.jpeg");
+}
+
+.featured-jennifer {
+  background-image: url("assets/Jennifer_Petoff.jpg");
+}
+
+.featured-mac {
+  background-image: url("assets/Mac_slocum.jpg");
+}
+
+.role::after {
+  display: block;
+  content: "";
+  width: 1.6em;
+  margin: 8px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.more::after {
+  display: inline-block;
+  content: "";
+  width: 0.6em;
+  height: 0.6em;
+  border-right: 2px solid #ec5242;
+  border-bottom: 2px solid #ec5242;
+  transform: rotate(45deg);
+  margin-left: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+/* Styling rules specific to About Page */
+
+.about-header {
+  background-image: url("assets/about-background.jpg");
+  background-position: 50% 75%;
+  background-size: cover;
+}
+
+.wrap-text {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("assets/sre-logo.png");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.conf-photos {
+  width: 275px;
+  height: 150px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.twenty-twenty {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(236, 143, 27, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    linear-gradient(135deg, rgba(242, 71, 21, 0.9) 40%, rgba(0, 0, 0, 0) 75%),
+    url("assets/sre-conference-2020.jpg");
+}
+
+.twenty-nineteen {
+  background-image:
+    linear-gradient(
+      0deg,
+      rgba(236, 143, 27, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    linear-gradient(135deg, rgba(242, 71, 21, 0.9) 40%, rgba(0, 0, 0, 0) 75%),
+    url("assets/srecon-hall.png");
+}
+
+/* Styling rules specific to the Tickets Page */
+
+table {
+  outline: 3px dotted #272a31;
+}
+
+.divider {
+  height: 2px;
+  background-color: #d3d3d3;
+}
+
+.square {
+  top: -1em;
+  content: "";
+  display: block;
+  width: 1.875em;
+  height: 1.875em;
+  transform: rotate(45deg);
+}
+
+.invert {
+  top: 0.7em;
+  left: 0.7em;
+  content: "";
+  width: 0.5em;
+  height: 0.5em;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.sel-menu h3 {
+  font-size: 15px;
+}
